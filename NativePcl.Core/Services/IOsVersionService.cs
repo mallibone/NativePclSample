@@ -1,4 +1,4 @@
-﻿namespace NativePcl.Core
+﻿namespace NativePcl.Core.Services
 {
     public interface IOsVersionService
     {

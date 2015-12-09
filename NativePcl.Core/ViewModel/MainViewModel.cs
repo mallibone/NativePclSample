@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using GalaSoft.MvvmLight;
+using NativePcl.Core.Services;
 
 namespace NativePcl.Core.ViewModel
 {
