@@ -29,7 +29,6 @@ namespace NativePcl.Droid
             // Get our button from the layout resource,
             // and attach an event to it
             OSVersion.Text = VM.OSVersion;
-            //OSVersion.Text = "hello world";
         }
     }
 }
