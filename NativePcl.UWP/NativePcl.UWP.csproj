@@ -127,16 +127,16 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\NativePcl.Core\NativePcl.Core.csproj">
-      <Project>{0dcf1fe0-c76f-4c57-88a9-6e89e1e1f497}</Project>
-      <Name>NativePcl.Core</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <Reference Include="OsVersionAPI.Core, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\OsVersionAPI.UWP\bin\Release\OsVersionAPI.Core.dll</HintPath>
     </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\NativePcl.Core\NativePcl.Core.csproj">
+      <Project>{0dcf1fe0-c76f-4c57-88a9-6e89e1e1f497}</Project>
+      <Name>NativePcl.Core</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>

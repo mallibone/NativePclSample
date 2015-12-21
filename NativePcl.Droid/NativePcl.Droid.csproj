@@ -50,6 +50,10 @@
   <ItemGroup>
     <Reference Include="Mono.Android" />
     <Reference Include="mscorlib" />
+    <Reference Include="OsVersionAPI.Core, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\OSVersion.1.0.0.0\lib\monoandroid1\OsVersionAPI.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -93,12 +97,8 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\NativePcl.Core\NativePcl.Core.csproj">
-      <Project>{0DCF1FE0-C76F-4C57-88A9-6E89E1E1F497}</Project>
+      <Project>{0dcf1fe0-c76f-4c57-88a9-6e89e1e1f497}</Project>
       <Name>NativePcl.Core</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\OsVersionAPI.Droid\OsVersionAPI.Droid.csproj">
-      <Project>{2A15FF05-191E-4E81-89B9-D56F0A4214AB}</Project>
-      <Name>OsVersionAPI.Droid</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
