@@ -76,7 +76,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="OsVersionAPI.Core, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\OSVersion.1.0.0.0\lib\xamarin.ios10\OsVersionAPI.Core.dll</HintPath>
+      <HintPath>..\packages\OSVersion.1.0.0.3\lib\xamarin.ios10\OsVersionAPI.Core.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />

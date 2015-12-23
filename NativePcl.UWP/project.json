@@ -2,7 +2,7 @@
   "dependencies": {
     "Microsoft.NETCore.UniversalWindowsPlatform": "5.0.0",
     "MvvmLightLibs": "5.2.0",
-    "OSVersion": "1.0.0"
+    "OSVersion": "1.0.0.3"
   },
   "frameworks": {
     "uap10.0": {}

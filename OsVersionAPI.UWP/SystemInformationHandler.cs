@@ -4,6 +4,9 @@ namespace OsVersionAPI.Core
 {
     public class SystemInformationHandler
     {
+        /// <summary>
+        /// Returns string "Windows [Version Number]"
+        /// </summary>
         public static string OSVersion
         {
             get { return OsVersionString(); }

@@ -28,8 +28,6 @@ namespace NativePcl.Droid
 		{
 			global::GalaSoft.MvvmLight.Resource.String.ApplicationName = global::NativePcl.Droid.Resource.String.ApplicationName;
 			global::GalaSoft.MvvmLight.Resource.String.Hello = global::NativePcl.Droid.Resource.String.Hello;
-			global::OsVersionAPI.Core.Resource.String.ApplicationName = global::NativePcl.Droid.Resource.String.ApplicationName;
-			global::OsVersionAPI.Core.Resource.String.Hello = global::NativePcl.Droid.Resource.String.Hello;
 		}
 		
 		public partial class Attribute

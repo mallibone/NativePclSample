@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>OSVersion</id>
-    <version>1.0.0.0</version>
+    <version>1.0.0.3</version>
     <title>OS Version</title>
     <authors>Mark Allibone</authors>
     <owners>Mark Allibone</owners>
@@ -17,9 +17,20 @@
   </metadata>
   
   <files>
-    <file src="OSVersionAPI\bin\Release\OsVersionAPI.Core.dll" target="lib\portable-net45+wp8+wpa81+netcore45+monoandroid1+xamarin.ios10\OsVersionAPI.Core.dll" />
-    <file src="OSVersionAPI.UWP\bin\Release\OsVersionAPI.Core.dll" target="lib\windows10\OsVersionAPI.Core.dll" />
+    <file src="OSVersionAPI\bin\Release\OsVersionAPI.Core.dll" target="lib\portable-net45+wp8+wpa81+netcore45+monoandroid1+xamarin.ios10+UAP10\OsVersionAPI.Core.dll" />
+    <file src="OSVersionAPI\bin\Release\OsVersionAPI.Core.pdb" target="lib\portable-net45+wp8+wpa81+netcore45+monoandroid1+xamarin.ios10+UAP10\OsVersionAPI.Core.pdb" />
+    <file src="OSVersionAPI\bin\Release\OsVersionAPI.Core.xml" target="lib\portable-net45+wp8+wpa81+netcore45+monoandroid1+xamarin.ios10+UAP10\OsVersionAPI.Core.xml" />
+    
+    <file src="OSVersionAPI.UWP\bin\Release\OsVersionAPI.Core.dll" target="lib\UAP10\OsVersionAPI.Core.dll" />
+    <file src="OSVersionAPI.UWP\bin\Release\OsVersionAPI.Core.pdb" target="lib\UAP10\OsVersionAPI.Core.pdb" />
+    <file src="OSVersionAPI.UWP\bin\Release\OsVersionAPI.Core.xml" target="lib\UAP10\OsVersionAPI.Core.xml" />
+    
     <file src="OSVersionAPI.Droid\bin\Release\OsVersionAPI.Core.dll" target="lib\monoandroid1\OsVersionAPI.Core.dll" />
+    <file src="OSVersionAPI.Droid\bin\Release\OsVersionAPI.Core.pdb" target="lib\monoandroid1\OsVersionAPI.Core.pdb" />
+    <file src="OSVersionAPI.Droid\bin\Release\OsVersionAPI.Core.xml" target="lib\monoandroid1\OsVersionAPI.Core.xml" />
+    
     <file src="OSVersionAPI.iOS\bin\iPhone\Release\OsVersionAPI.Core.dll" target="lib\xamarin.ios10\OsVersionAPI.Core.dll" />
+    <file src="OSVersionAPI.iOS\bin\iPhone\Release\OsVersionAPI.Core.pdb" target="lib\xamarin.ios10\OsVersionAPI.Core.pdb" />
+    <file src="OSVersionAPI.iOS\bin\iPhone\Release\OsVersionAPI.Core.xml" target="lib\xamarin.ios10\OsVersionAPI.Core.xml" />
   </files>
 </package>

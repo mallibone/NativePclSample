@@ -2,10 +2,9 @@
 {
     public class SystemInformationHandler
     {
-        #region Implementation of ISystemInformationHandler
-
+        /// <summary>
+        /// Returns stub version number
+        /// </summary>
         public static string OSVersion => "Gnabber";
-
-        #endregion
     }
 }

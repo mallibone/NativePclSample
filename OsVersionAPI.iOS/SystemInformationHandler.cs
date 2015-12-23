@@ -2,10 +2,9 @@
 {
     public class SystemInformationHandler
     {
-        #region Implementation of ISystemInformationHandler
-
+        /// <summary>
+        /// Returns String "iOS [VersionNumber]"
+        /// </summary>
         public static string OSVersion => $"iOS {ObjCRuntime.Constants.Version}";
-
-        #endregion
     }
 }
